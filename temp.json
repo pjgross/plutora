@@ -1,0 +1,679 @@
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Title</th>
+      <th>TECR Type</th>
+      <th>Assigned To</th>
+      <th>Start Date</th>
+      <th>Due Date</th>
+      <th>Description</th>
+      <th>Release Name</th>
+      <th>TECR Status</th>
+      <th>Outage</th>
+      <th>Outage Start Date</th>
+      <th>Outage End Date</th>
+    </tr>
+    <tr>
+      <th>TECR No</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>ER1864</th>
+      <td>FSM: Deployment of release Release-121 on stag...</td>
+      <td>Software Deployment - Test</td>
+      <td>CRM Development Team</td>
+      <td>11 Jun 2025 10:56</td>
+      <td>11 Jun 2025 11:11</td>
+      <td>Import Solution: SXS.FSM.Entities&lt;br&gt;Import So...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1865</th>
+      <td>FSM: Deployment of release Release-121 on stag...</td>
+      <td>Software Deployment - Test</td>
+      <td>CRM Development Team</td>
+      <td>11 Jun 2025 10:56</td>
+      <td>11 Jun 2025 11:11</td>
+      <td>Import Solution: SXS.FSM.Entities&lt;br&gt;Import So...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1866</th>
+      <td>FSM: Deployment of release Release-121 on stag...</td>
+      <td>Software Deployment - Test</td>
+      <td>CRM Development Team</td>
+      <td>11 Jun 2025 10:56</td>
+      <td>11 Jun 2025 11:11</td>
+      <td>Import Solution: SXS.FSM.Entities&lt;br&gt;Import So...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1867</th>
+      <td>FSM: Deployment of release Release-121 on stag...</td>
+      <td>Software Deployment - Test</td>
+      <td>CRM Development Team</td>
+      <td>11 Jun 2025 10:56</td>
+      <td>11 Jun 2025 11:11</td>
+      <td>Import Solution: SXS.FSM.Entities&lt;br&gt;Import So...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1868</th>
+      <td>FSM: Deployment of release Release-121 on stag...</td>
+      <td>Software Deployment - Test</td>
+      <td>CRM Development Team</td>
+      <td>11 Jun 2025 10:56</td>
+      <td>11 Jun 2025 11:11</td>
+      <td>Import Solution: SXS.FSM.Entities&lt;br&gt;Import So...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1869</th>
+      <td>FSM: Deployment of release Release-121 on stag...</td>
+      <td>Software Deployment - Test</td>
+      <td>CRM Development Team</td>
+      <td>11 Jun 2025 10:56</td>
+      <td>11 Jun 2025 11:11</td>
+      <td>Import Solution: SXS.FSM.Entities&lt;br&gt;Import So...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1875</th>
+      <td>FSM: Deployment of release Release-121 on stag...</td>
+      <td>Software Deployment - Test</td>
+      <td>CRM Development Team</td>
+      <td>11 Jun 2025 10:56</td>
+      <td>11 Jun 2025 11:11</td>
+      <td>Import Solution: SXS.FSM.Entities&lt;br&gt;Import So...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1876</th>
+      <td>FSM: Deployment of release Release-121 on stag...</td>
+      <td>Software Deployment - Test</td>
+      <td>CRM Development Team</td>
+      <td>11 Jun 2025 10:56</td>
+      <td>11 Jun 2025 11:11</td>
+      <td>Import Solution: SXS.FSM.Entities&lt;br&gt;Import So...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1878</th>
+      <td>reconfigure the customer server in SIT</td>
+      <td>Infrastructure</td>
+      <td>test peter</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td>Customer_R1.1.16</td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1881</th>
+      <td>BI Build #5179 to PREPROD</td>
+      <td>Software Deployment - Test</td>
+      <td>Peter Gross</td>
+      <td>13 Aug 2025 10:24</td>
+      <td>13 Aug 2025 10:32</td>
+      <td></td>
+      <td></td>
+      <td>Completed</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1887</th>
+      <td>Customer SIT Deployment June25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1888</th>
+      <td>Customer SIT Deployment July25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1889</th>
+      <td>Customer SIT Deployment Aug25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1890</th>
+      <td>Customer SIT Deployment Sep25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1891</th>
+      <td>Customer SIT Deployment Oct25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1892</th>
+      <td>Customer SIT Deployment Nov25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1898</th>
+      <td>Mortgage SIT Deployment June25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1899</th>
+      <td>Mortgage SIT Deployment July25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1900</th>
+      <td>Mortgage SIT Deployment Aug25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1901</th>
+      <td>Mortgage SIT Deployment Sep25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1902</th>
+      <td>Mortgage SIT Deployment Oct25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1903</th>
+      <td>Mortgage SIT Deployment Nov25</td>
+      <td>Planned Deployment</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td></td>
+      <td></td>
+      <td>Draft</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1904</th>
+      <td>Mortgage_Server  2025-09-04</td>
+      <td>Software Deployment - Test</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>In Progress</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1905</th>
+      <td>Mortgage_Server  2025-09-04</td>
+      <td>Software Deployment - Test</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>In Progress</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1906</th>
+      <td>Mortgage_Server  2025-09-04</td>
+      <td>Software Deployment - Test</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>In Progress</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1907</th>
+      <td>Mortgage_Server  2025-09-04</td>
+      <td>Software Deployment - Test</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>In Progress</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1908</th>
+      <td>Mortgage_Server  2025-09-04</td>
+      <td>Software Deployment - Test</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>In Progress</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1909</th>
+      <td>Mortgage_Server  2025-09-04</td>
+      <td>Software Deployment - Test</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1910</th>
+      <td>Mortgage_Server R1.1.4 2025-09-04</td>
+      <td>Software Deployment - Test</td>
+      <td>Peter Gross</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1911</th>
+      <td>BI Build #5179 to PREPROD</td>
+      <td>Software Deployment - Test</td>
+      <td>BI Development Team</td>
+      <td>13 Aug 2025 10:24</td>
+      <td>13 Aug 2025 10:32</td>
+      <td></td>
+      <td></td>
+      <td>Completed</td>
+      <td>No</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>ER1919</th>
+      <td>DB_PROVISION@2025-06-13T02:08:19</td>
+      <td>Data Refresh</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>INITIAL</td>
+      <td></td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>13 Jun 2025 09:08</td>
+      <td>13 Jun 2025 09:08</td>
+    </tr>
+    <tr>
+      <th>ER1920</th>
+      <td>DB_ROLLBACK@2025-10-01T01:18:09</td>
+      <td>Data Refresh</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>ROLLBACK</td>
+      <td></td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>01 Oct 2025 08:18</td>
+      <td>01 Oct 2025 08:18</td>
+    </tr>
+    <tr>
+      <th>ER1921</th>
+      <td>DB_PROVISION@2025-06-13T01:34:44</td>
+      <td>Data Refresh</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>INITIAL</td>
+      <td></td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>13 Jun 2025 08:34</td>
+      <td>13 Jun 2025 08:35</td>
+    </tr>
+    <tr>
+      <th>ER1922</th>
+      <td>DB_PROVISION@2025-06-13T01:34:46</td>
+      <td>Data Refresh</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>INITIAL</td>
+      <td></td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>13 Jun 2025 08:34</td>
+      <td>13 Jun 2025 08:35</td>
+    </tr>
+    <tr>
+      <th>ER1925</th>
+      <td>DB_ROLLBACK@2025-10-01T07:59:38</td>
+      <td>Data Refresh</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Event Type: ROLLBACK&lt;br&gt;Data Timestamp: 2025-0...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>02 Oct 2025 14:59</td>
+      <td>02 Oct 2025 20:19</td>
+    </tr>
+    <tr>
+      <th>ER1926</th>
+      <td>DB_ROLLBACK@2025-10-02T13:45:25</td>
+      <td>Data Refresh</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Event Type: ROLLBACK&lt;br&gt;Data Timestamp: 2025-0...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>02 Oct 2025 20:45</td>
+      <td>02 Oct 2025 20:45</td>
+    </tr>
+    <tr>
+      <th>ER1927</th>
+      <td>DB_ROLLBACK@2025-10-06T01:43:15</td>
+      <td>Data Refresh</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Event Type: ROLLBACK&lt;br&gt;Data Timestamp: 2025-0...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>06 Oct 2025 08:43</td>
+      <td>06 Oct 2025 08:43</td>
+    </tr>
+    <tr>
+      <th>ER1928</th>
+      <td>DB_ROLLBACK@2025-10-06T01:42:55</td>
+      <td>Data Refresh</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>Event Type: ROLLBACK&lt;br&gt;Data Timestamp: 2025-0...</td>
+      <td></td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>06 Oct 2025 08:42</td>
+      <td>06 Oct 2025 08:43</td>
+    </tr>
+    <tr>
+      <th>ER1929</th>
+      <td>Mortgage_Server R1.1.4 2025-09-04</td>
+      <td>Planned Deployment</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1930</th>
+      <td>Mortgage_Server R1.1.4 2025-09-04</td>
+      <td>Planned Deployment</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1931</th>
+      <td>Mortgage_Server R1.1.4 2025-09-04</td>
+      <td>Planned Deployment</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1932</th>
+      <td>Mortgage_Server R1.1.4 2025-09-04</td>
+      <td>Planned Deployment</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1933</th>
+      <td>Mortgage_Server R1.1.4 2025-09-04</td>
+      <td>Planned Deployment</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1934</th>
+      <td>Mortgage_Server R1.1.4 2025-09-04</td>
+      <td>Planned Deployment</td>
+      <td>Int user</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+    <tr>
+      <th>ER1935</th>
+      <td>Mortgage_Server R1.1.4 2025-09-04</td>
+      <td>Planned Deployment</td>
+      <td>JDE 9.2 Development Team</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>A Description</td>
+      <td>Mortgage_R1.1.4</td>
+      <td>Completed</td>
+      <td>Yes</td>
+      <td>04 Sep 2025 15:26</td>
+      <td>04 Sep 2025 15:56</td>
+    </tr>
+  </tbody>
+</table>
+</div>
